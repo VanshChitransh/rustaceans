@@ -1,6 +1,7 @@
 #[warn(unused_imports)]
 use chapter7::authenticate;
-use chapter7::Credentials;
+// use chapter7::Credentials; -> This is no more valid. 
+use chapter7::auth_utils::models::Credentials;
 
 
 // we imported both the things which we made public in the lib.rs file. 
